@@ -9,7 +9,7 @@ public class Kino {
         Scanner sc2 = new Scanner(System.in);
         Scanner sc3 = new Scanner(System.in);
 
-        String[] kino = new String[9999];
+        String[] kino = new String[999];
         boolean pokracovat = true;
 
         while(pokracovat) {
