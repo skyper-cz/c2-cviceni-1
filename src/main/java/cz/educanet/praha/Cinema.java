@@ -1,9 +1,8 @@
 package cz.educanet.praha;
 
-import java.util.Scanner;
-
 import java.util.Arrays;
 import java.util.Objects;
+import java.util.Scanner;
 
 public class Cinema {
 
