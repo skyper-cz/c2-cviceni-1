@@ -9,11 +9,7 @@ public class Kino {
         Scanner sc2 = new Scanner(System.in);
         Scanner sc3 = new Scanner(System.in);
 
-<<<<<<< Updated upstream
         String[] kino = new String[999];
-=======
-        String[] kino = new String[9999];
->>>>>>> Stashed changes
         boolean pokracovat = true;
 
         while(pokracovat) {

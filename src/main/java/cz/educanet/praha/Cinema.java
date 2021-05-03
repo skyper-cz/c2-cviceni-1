@@ -28,10 +28,4 @@ public class Cinema {
         int freeSpaces = freeSpaces(new String[]{null, null, "2bad2furious", null, null, "monarezio"}, new Scanner(System.in));
         System.out.println("Free spaces: " + freeSpaces);
     }
-
-    public static void main(String[] args) {
-        int freeSpaces = freeSpaces(new String[]{null, null, "2bad2furious", null, null, "monarezio"}, new Scanner(System.in));
-        System.out.println("Free spaces: " + freeSpaces);
-    }
 }
-
