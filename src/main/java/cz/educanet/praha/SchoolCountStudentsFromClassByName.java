@@ -5,6 +5,13 @@ import cz.educanet.praha.school.School;
 public class SchoolCountStudentsFromClassByName {
 
     public static int countStudentsFromClassByItsName(School school, String className) {
-        return 0;
+        int pocetStudetu = 0;
+        for (int i = 0; i < school.classes.length; i++) {
+           if (className.equals(school.classes[i].name)) {
+               pocetStudetu = school.classes[i].students.length;
+           }
+        }
+
+        return pocetStudetu;
     }
 }
