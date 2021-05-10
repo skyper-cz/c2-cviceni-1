@@ -11,8 +11,8 @@ public class SchoolCountAllStudents {
 
     public static int countAllStudents(School school) {
         int PocetStudentu = 0;
-        for (int i = 0; i < school.classes.stu; i++) {
-            PocetStudentu = school.classes.length;
+        for (int i = 0; i < school.classes.length; i++) {
+            PocetStudentu += school.classes[i].students.length;
         }
         return PocetStudentu;
     }
