@@ -1,11 +1,6 @@
 package cz.educanet.praha;
 
 import cz.educanet.praha.school.School;
-import cz.educanet.praha.school.Class;
-
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Scanner;
 
 public class SchoolCountAllStudents {
 
